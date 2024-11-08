@@ -3,26 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Link:css></Link:css>
+    <Link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <main>
-        <div>
+        <div class="passo ativo" id="passo-0">
             <p>Um di desses, dentro de um livro da biblioteca do colégio, eu descobri uma carta antiga sobre uma cidade
                 perdida, escondida por riquesas e belzas naturais.
-                Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi siguilas!
+                Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!
             </p>
-            <button></button>
-            <button></button>
+            <button class="btn-proximo" data-proximo="1">Toronto</button>
+            <button class="btn-proximo" data-proximo="2">Liboa</button>
         </div>
-        <div>
-            <p></p>
-            <button></button>
-            <button></button>
+        <div class="passo" id="passo-1">
+            <p>Após pegar um voo para o Canadá, você chegou a Toronto, indo de trem</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista na torre CN</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
         </div>
     </main>
 </body>

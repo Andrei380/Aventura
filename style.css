@@ -2,8 +2,8 @@
 
 body{
     
-background-color: #800000 ;
-color: rgb(255, 255, 0);
+background-color: #b22222 ;
+color: rgb(255, 255, 255);
 font-family: "Bai Jambure", sans serif;
 display: flex;
 justify-content: center;
@@ -16,4 +16,21 @@ button{
     background-color: darkgoldenrod;
     color: white;
     font-family: "Bai Jambure", sans serif;;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
 }
